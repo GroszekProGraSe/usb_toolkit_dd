@@ -64,5 +64,6 @@ projektow powstal taki projekt ktory mysle ma szanse stac sie USB make predatore
 >Instalujesz Dockera (jak chcesz lab w kontenerach).
 >Całość odpala się na każdej maszynie (ważne: UEFI/BIOS → trzeba czasem kombinować z trybami legacy/secure boot).
 
-
+o i po wcesniejszym projekcie stad te CLI i oddawanie CLI gdy sie laduje gdy zle a nawet gdy poprawnie wszystko sie zapisuje w TXT szyfrem nie do odszyfrowania dopoki znasz haslo do narzedzia w tedy i ty ich nie odzyskasz cale krypto opiera sie na wlasnie tym hasle taki zamysl taki kod o tu (https://github.com/GroszekProGraSe/-python-password-manager.git) + gitclone chroot +x 777 czy inaczej ogolnie dziala tyle chcialem od tego skryptu crypto z reszta tez tyle chcialem wykodzic cos co se wymyslilem przy chcecksumach :D 
+ 
 
