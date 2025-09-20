@@ -28,5 +28,7 @@ projektow powstal taki projekt ktory mysle ma szanse stac sie USB make predatore
  + bs=4M – bufor (szybciej niż domyślnie)
  + oflag=sync – wymusza synchronizację bloków, zmniejsza ryzyko uszkodzenia.
  + pv – pokazuje postęp...
-
+3. Kopiowanie całego pendrive’a (backup obrazu), gdyby flash się ujebał i chciałbym przywrócić nośnik
+   * sudo dd if=/dev/sdX | pv > pendrive_backup.img -- zgranie do iso
+   * 
 
