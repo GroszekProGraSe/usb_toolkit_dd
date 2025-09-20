@@ -41,9 +41,28 @@ projektow powstal taki projekt ktory mysle ma szanse stac sie USB make predatore
    * i kompressuje wszystko klon jest lzejszy od zwyklego dd
     - - - ale nie o takie rozwiazanie chodzi to tak jakby ktos jednak wolal alternatywe ..
 
-    2. tez opcja ktora sie chyba na sam pierw nasowa najprostrza 
-     System „kieszonkowy” do labu + Tailscale
+    2. (opcja ktora sie chyba na sam pierw nasowa najprostrza)
+ 
      
+     > System „kieszonkowy” do labu + Tailscale
+>Zabrać lab ze sobą i odpalać go z pendrive’a na dowolnym PC/laptopie:
+>>Opcje:
+>>>>>>> Ventoy + ISO
+>Instalacja Ventoy na dużym pendrive (np. 256GB).
+>Bootujesz i wybierasz co chcesz odpalić.
+>Najlepsza opcja jak chcesz mieć wiele systemów.
+>Pełna instalacja Linuxa na pendrive (persistent live)
+>Tworzysz system np. Ubuntu, Debian, Kali czy Parrot z persistent storage.
+>Masz normalny system, który zachowuje ustawienia.
+>Dodajesz Tailscale:
+   ( , ,,, ,curl -fsSL https://tailscale.com/install.sh | sh
+    sudo tailscale up, ,,, ,)
+
+>Masz swoje środowisko zawsze ze sobą i dostęp do sieci labowej.
+>Najprościej: Tailscale + Tailscale Funnel (lub subnet router)
+>Na pendrive Linux z persistent storage.
+>Instalujesz Dockera (jak chcesz lab w kontenerach).
+>Całość odpala się na każdej maszynie (ważne: UEFI/BIOS → trzeba czasem kombinować z trybami legacy/secure boot).
 
 
 
