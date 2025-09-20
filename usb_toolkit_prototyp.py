@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-usb_toolkit_extended.py
+usb_toolkit_prototyp.py
 
 Rozbudowane narzędzie CLI do:
  - nagrywania ISO na pendrive (dd + pv)
