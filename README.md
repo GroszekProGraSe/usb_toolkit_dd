@@ -32,3 +32,4 @@ projektow powstal taki projekt ktory mysle ma szanse stac sie USB make predatore
    * sudo dd if=/dev/sdX | pv > pendrive_backup.img -- zgranie do iso
    * 
 
+3. 
