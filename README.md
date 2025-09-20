@@ -30,6 +30,20 @@ projektow powstal taki projekt ktory mysle ma szanse stac sie USB make predatore
  + pv – pokazuje postęp...
 3. Kopiowanie całego pendrive’a (backup obrazu), gdyby flash się ujebał i chciałbym przywrócić nośnik
    * sudo dd if=/dev/sdX | pv > pendrive_backup.img -- zgranie do iso
-   * 
+   * sudo dd if=pendrive_backup.img | pv | sudo dd of=/dev/sdX bs=4M oflag=sync -- odtworzenie obrazu z .iso
 
-3. 
+  >> ## Opcjonalnie ale to tak od siebie nie powinno byc mowy o tym nie w temacie ale mozna uzyc Clonezilla (robibackupy obrazow nosnikow) sama sie bootuje i kompresuje dosc fajnie klona , (niech bedzie porobie wkleiki swoich notatek)
+   1. Clonezilla Live z USB/CD.
+   * device-image → zapiszesz pendrive/dysk do pliku .img na inny nośnik (np. HDD)
+   * device-device → klon 1:1 między nośnikami
+   * Do backupu najlepiej: device-image + zapis na zewnętrzny dysk
+   * mozna też nado katalogu SAMBA, NFS, SSH
+   * i kompressuje wszystko klon jest lzejszy od zwyklego dd
+    - - - ale nie o takie rozwiazanie chodzi to tak jakby ktos jednak wolal alternatywe ..
+
+    2. tez opcja ktora sie chyba na sam pierw nasowa najprostrza 
+     System „kieszonkowy” do labu + Tailscale
+     
+
+
+
